@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Lecture 6 Demo - Deploying to Heroku
 
 This demo explains how to take a Github repository and deploy it to the world!
@@ -37,3 +38,6 @@ This demo explains how to take a Github repository and deploy it to the world!
 7. Open your app on the INTERNET (it won't work yet): `heroku open`
 8. Go to https://dashboard.heroku.com/apps and click your App, then go to Settings, and click "Reveal Config Vars"
 10. Add your secret key from `.env` with the matching variable name (`NYT_KEY`) and value (your key, without quotation marks!)
+=======
+# lect6
+>>>>>>> 349912625775f986cb11499a61e03a7b30b0a7e8

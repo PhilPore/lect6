@@ -19,6 +19,13 @@ def hello_world():
         headlines=article_data['headlines'],
         snippets=article_data['snippets'],
     )
+@app.route('/search/<user_text>')
+def userTxt(user_text):
+    print(user_text)
+    article_data = get_article_data(user_text)
+    headlines=article_data['headlines']
+    snippets=article_data['snippets']
+    return {'headlines':headlines, 'snippets':snippets}
 
 app.run(
     host=os.getenv('IP', '0.0.0.0'),
